@@ -1,5 +1,5 @@
 def main(): 
-    name = input("What's you name? ").title()
+    name = input("What's you name? ").capitalize()
     hello(name)
     
 def hello(to="world"):
